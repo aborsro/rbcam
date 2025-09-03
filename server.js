@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // --- Passwortschutz ---
-let userPassword = "qq";         // Startpasswort
+let userPassword = "rr";         // Startpasswort
 const MASTER = "zork";           // Masterpasswort (nur hier sichtbar!)
 
 // Body Parser für JSON
